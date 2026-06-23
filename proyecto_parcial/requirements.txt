@@ -9,4 +9,5 @@ pip
 python-dotenv
 ruff
 scikit-learn
+seaborn
 -e .
