@@ -59,3 +59,4 @@ Proyecto de parcial de la materia Aprendizaje Automatico - Modelo predictivo y s
 
 --------
 
+[Primer dataset](https://github.com/enzomelian10/AprendizajeAutomatico_PolitecnicoMA_EnzoMelian/blob/main/proyecto_parcial/data/raw/1-expo_CEPII_BACI_mineras_mundiales_pais.csv)
