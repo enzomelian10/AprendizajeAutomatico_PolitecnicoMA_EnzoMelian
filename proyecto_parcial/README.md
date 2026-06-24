@@ -10,6 +10,8 @@ Este proyecto desarrolla e implementa un enfoque mixto de Aprendizaje Automátic
 
 ---
 
+### ([Link al video presentacion del proyecto](https://youtu.be/eXZ7OFtVHmU))
+
 ## 📌 Índice
 - [Introducción y Contexto](#introducción-y-contexto)
 - [Objetivos del Proyecto](#objetivos-del-proyecto)
