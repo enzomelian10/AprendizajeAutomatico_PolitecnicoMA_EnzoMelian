@@ -149,8 +149,11 @@ Durante esta fase crítica se ejecutaron las siguientes tareas de ingeniería de
 
 ### Clustering de Minerales – Aprendizaje No Supervisado
 A partir del método del Codo, se determinó que la cantidad óptima de agrupaciones para la matriz comercial global es **k = 3**:
-* **Cluster 0:** Compuesto por 84 minerales de bajo volumen promedio y presencia estable. Es el clúster menos volátil en el mercado.
-* **Clusters 1 y 2:** Grupos reducidos (1 y 2 minerales respectivamente) con alta relevancia estratégica o volúmenes masivos. Presentan valores promedio muy altos pero volatilidades igualmente elevadas.
+
+-  **Clúster 0 (Minerales de Nicho o Estables):** Es el grupo más numeroso (84 grupos). Son minerales con un valor de mercado mundial bajo y donde Argentina tiene una presencia muy pequeña o nula. Representan la base de la minería menor.
+-  **Clúster 1 (Gigantes del Mercado Mundial - El Oro):** Este clúster suele estar dominado por el **Oro**. Se caracteriza por tener el **valor promedio mundial más alto** y una volatilidad extrema. Para Argentina, este es el motor principal en términos de divisas, representando casi el **50% del FOB total** acumulado.
+-  **Clúster 2 (Metales Estratégicos de Alto Volumen):** Incluye minerales como el **Cobre y la Plata**. Tienen un valor de mercado mundial importante (aunque menor al Oro) y Argentina mantiene una presencia relevante (promedio de ~11%). Son sectores con gran potencial de escala pero con perfiles de mercado más balanceados que el Oro.
+
 
 > 🛠️ **Refinamiento con DBSCAN:** Se ejecutó para aislar de forma orgánica los *outliers* masivos del mercado internacional. El algoritmo identificó con precisión los recursos clave de la economía minera argentina: **Cobre, Hierro, Litio, Oro y Plata**.
 > 
