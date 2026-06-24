@@ -21,6 +21,7 @@ Este proyecto desarrolla e implementa un enfoque mixto de Aprendizaje Automátic
   - [Clustering (No Supervisado)](#clustering-de-minerales--aprendizaje-no-supervisado)
   - [Regresión y Simulador (Supervisado)](#regresión-y-simulador-what-if---aprendizaje-supervisado)
 - [Conclusiones](#conclusiones-del-proyecto)
+- [Recomendaciones](#recomendaciones-para-ampliar-aún-mas-el-alcance-del-proyecto)
 
 ---
 
@@ -181,5 +182,17 @@ Se encapsuló una función predictiva final orientada a calcular el valor FOB es
 ## Conclusiones del proyecto
 
 La combinación de técnicas no supervisadas y supervisadas permitió caracterizar con rigor matemático la estructura de la minería argentina, abstrayendo patrones comerciales clave y aislando los *outliers* de alto valor estratégico. El modelo predictivo final cuenta con una elevada capacidad explicativa ($R^2 = 0,929$), y la implementación del simulador de escenarios proporciona una herramienta sólida para asistir a la toma de decisiones estratégicas, permitiendo mensurar el impacto potencial de políticas productivas o shocks de precios sobre el ingreso de divisas al país.
+
+---
+
+## Recomendaciones para ampliar aún mas el alcance del proyecto: 
+
+Como trabajo futuro, podrían incorporarse:
+- Variables macroeconómicas adicionales.
+- Precios internacionales de commodities.
+- Hacer un cluster independiente solo para el litio, dada su demanda actual y futura en el mercado.
+- Modelos de series temporales más avanzados, con el objetivo de mejorar aún más la capacidad predictiva del sistema
+- Desarrollar una interfaz interactiva.
+
 
 --------
