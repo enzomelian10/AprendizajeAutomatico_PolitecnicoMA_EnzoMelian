@@ -4,6 +4,6 @@
 
 ### Autor: Enzo Ariel Melian
 
-[Link a las clases](/clases)
+[Link a las clases](/Clases)
 
 [Link al proyecto de parcial](/proyecto_parcial/)
